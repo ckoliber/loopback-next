@@ -10,6 +10,9 @@
     // FIXME(bajtos) LB4 is not compatible with this setting yet
     "strictPropertyInitialization": false,
 
+    // TypeScript 4.4 defaults to the `unknown` Type in Catch Variables
+    "useUnknownInCatchVariables": false,
+
     "incremental": true,
 
     "lib": ["es2020"],
